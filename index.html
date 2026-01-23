@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Late.AM.Studio — Design Portfolio</title>
+  <meta name="description" content="Late.AM.Studio — Visual design, branding, and creative direction." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="top">
+    <div class="wrapper nav-wrapper">
+      <nav class="nav">
+        <div class="logo">
+          <span class="logo-dot"></span>
+          Late.AM.Studio
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#top" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Work</a>
+          <a href="#testimonials">Testimonials</a>
+        </div>
+        <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">
+          <span class="nav-cta-dot"></span>
+          Enquire
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrapper hero-grid">
+        <div class="hero-left reveal">
+          <div class="hero-kicker">
+            <span class="hero-kicker-dot"></span>
+            Late night ideas / AM execution
+          </div>
+          <h1 class="hero-title">
+            Visual design & branding for
+            <span>ambitious creatives</span>.
+          </h1>
+          <p class="hero-subtitle">
+            Late.AM.Studio crafts bold, story-driven visuals for people who
+            care about the details — from IG-ready content to full brand systems.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'});">
+              View selected work →
+            </button>
+            <button class="btn btn-ghost" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">
+              Book a project call
+            </button>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span>+30</span>
+              completed concepts
+            </div>
+            <div>
+              <span>3 mo</span>
+              avg. collab window
+            </div>
+            <div>
+              <span>1</span>
+              person studio, full focus
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal">
+          <div class="hero-card-badge">Availability</div>
+          <div class="hero-card-pill">
+            <span class="logo-dot"></span>
+            Accepting new projects
+          </div>
+          <p class="hero-card-main">
+            I design clean, cinematic visuals with a focus on storytelling, texture,
+            and mood — ideal for fashion, streetwear, and lifestyle brands.
+          </p>
+          <div class="hero-card-tags">
+            <span class="hero-card-tag">Art direction</span>
+            <span class="hero-card-tag">Photo compositing</span>
+            <span class="hero-card-tag">IG layout design</span>
+            <span class="hero-card-tag">Brand touchpoints</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrapper">
+        <div class="section-header reveal">
+          <span class="section-tag">About</span>
+          <h2 class="section-title">Late.AM.Studio is run by you — one creative, many stories.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Late.AM.Studio is my personal design playground and portfolio —
+              a space where late-night ideas turn into visuals that feel sharp,
+              intentional, and a little bit cinematic.
+            </p>
+            <p>
+              I work across social content, visual identities, and graphic layouts,
+              blending photography and design into pieces that actually look good
+              in the feed — not just in a deck.
+            </p>
+            <p>
+              If you’re building a brand, dropping a collection, or just want
+              visuals that finally match your taste, we’ll get on the same page fast.
+            </p>
+
+            <div class="about-tags">
+              <span class="about-tag">Brand visuals</span>
+              <span class="about-tag">Moodboard-led design</span>
+              <span class="about-tag">Instagram-first thinking</span>
+              <span class="about-tag">Fast iteration</span>
+            </div>
+
+            <div class="about-meta">
+              <div>
+                <span>Concept → Export</span>
+                End-to-end creative process
+              </div>
+              <div>
+                <span>Remote-friendly</span>
+                UK-based, global projects
+              </div>
+            </div>
+          </div>
+
+          <div class="portrait-wrapper reveal">
+            <div class="portrait-frame">
+              <!-- Replace src with the path to your portrait -->
+              <img src="your-portrait.jpg" alt="Portrait of the designer behind Late.AM.Studio" />
+              <div class="portrait-glow"></div>
+            </div>
+            <div class="portrait-note">
+              Swap this placeholder with your own portrait (ideal: clean, moody lighting).
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="wrapper">
+        <div class="section-header reveal">
+          <span class="section-tag">Selected Work</span>
+          <h2 class="section-title">A snapshot of recent projects & experiments.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal" data-project="1">
+            <div class="project-thumb">
+              <span>Lookbook series</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3 class="project-title">Monochrome streetwear drop</h3>
+            <p class="project-meta">
+              Visual direction, layout design, and post-production for a capsule release.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Art direction</span>
+              <span class="project-tag">Photo editing</span>
+              <span class="project-tag">Social rollout</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="2">
+            <div class="project-thumb">
+              <span>Brand deck</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3 class="project-title">Late-night coffee brand visuals</h3>
+            <p class="project-meta">
+              Built a visual language around neon accents and grainy textures
+              for a speciality coffee brand.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Branding</span>
+              <span class="project-tag">Typography</span>
+              <span class="project-tag">Mockups</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="3">
+            <div class="project-thumb">
+              <span>Instagram grid</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3 class="project-title">Moodboard-style IG layout</h3>
+            <p class="project-meta">
+              Designed a cohesive 3x3 grid for a creator launch, balancing type,
+              texture, and photography.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Content design</span>
+              <span class="project-tag">Grid planning</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project="4">
+            <div class="project-thumb">
+              <span>Concept series</span>
+              <span class="project-arrow">↗</span>
+            </div>
+            <h3 class="project-title">Personal experiments & studies</h3>
+            <p class="project-meta">
+              Ongoing visual studies exploring typography, colour blocking, and
+              photo-driven layouts.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Exploration</span>
+              <span class="project-tag">R&D</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="testimonials">
+      <div class="wrapper">
+        <div class="section-header reveal">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">What collaborators say about the work.</h2>
+        </div>
+
+        <div class="testimonial-slider reveal">
+          <div class="testimonial active">
+            <p class="testimonial-quote">
+              “Late.AM.Studio completely transformed how my brand shows up online.
+              The visuals finally match the energy I’ve had in my head for years.”
+            </p>
+            <div class="testimonial-meta">
+              <strong>Founder, streetwear label</strong>
+              Capsule launch & lookbook visuals
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-quote">
+              “Communication was clear, fast, and collaborative. Every round of
+              feedback came back better than I expected.”
+            </p>
+            <div class="testimonial-meta">
+              <strong>Creative director, agency</strong>
+              Social campaign assets
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <p class="testimonial-quote">
+              “They took a scattered moodboard and turned it into a polished,
+              cohesive grid that made my launch feel elevated.”
+            </p>
+            <div class="testimonial-meta">
+              <strong>Content creator</strong>
+              Launch visuals & IG layout
+            </div>
+          </div>
+
+          <div class="testimonial-controls">
+            <div class="testimonial-buttons">
+              <button class="testimonial-btn" id="testimonial-prev" aria-label="Previous testimonial">
+                ←
+              </button>
+              <button class="testimonial-btn" id="testimonial-next" aria-label="Next testimonial">
+                →
+              </button>
+            </div>
+            <div class="testimonial-dots" id="testimonial-dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+   <section id="contact">
+  <div class="wrapper reveal">
+    <div class="section-header">
+      <span class="section-tag">Contact</span>
+      <h2 class="section-title">Let’s build something that feels like you.</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-copy">
+        <p>
+          Share a bit about your project, timing, and what you’re looking for visually —
+          I’ll reply with next steps and options.
+        </p>
+
+        <p class="contact-meta">
+          Email:
+          <a href="mailto:hello@lateamstudio.com">hello@lateamstudio.com</a><br />
+          Instagram:
+          <a href="https://instagram.com/yourhandle" target="_blank" rel="noreferrer">@yourhandle</a>
+        </p>
+
+        <p class="contact-note">
+          I usually reply within 24–48 hours, Monday–Friday (UK time).
+        </p>
+      </div>
+
+      <form id="enquiry-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="you@email.com" required />
+        </div>
+
+        <div class="form-row">
+          <label for="social">Instagram / website</label>
+          <input
+            type="text"
+            id="social"
+            name="social"
+            placeholder="@yourhandle or yoursite.com"
+          />
+        </div>
+
+        <div class="form-row form-row-inline">
+          <div>
+            <label for="project-type">Project type *</label>
+            <select id="project-type" name="projectType" required>
+              <option value="">Select an option</option>
+              <option value="instagram-visuals">Instagram visuals / grid</option>
+              <option value="brand-visuals">Brand visuals / campaign</option>
+              <option value="lookbook">Lookbook / drop visuals</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="budget">Approx. budget</label>
+            <select id="budget" name="budget">
+              <option value="">Select a range (optional)</option>
+              <option value="under-300">Under £300</option>
+              <option value="300-600">£300 – £600</option>
+              <option value="600-1000">£600 – £1,000</option>
+              <option value="1000-plus">£1,000+</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="timeline">Timeline</label>
+          <input
+            type="text"
+            id="timeline"
+            name="timeline"
+            placeholder="e.g. Next month, specific date, flexible"
+          />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Project details *</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Tell me about your brand, what you need, and any references you love."
+            required
+          ></textarea>
+        </div>
+
+        <p class="form-small">
+          Fields marked with * are required.
+        </p>
+
+        <p class="form-message" id="form-message" aria-live="polite"></p>
+
+        <button type="submit" class="btn btn-primary form-submit">
+          Send enquiry →
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer>
+    <div class="wrapper footer-inner">
+      <div>© <span id="year"></span> Late.AM.Studio. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+        <a href="mailto:hello@lateamstudio.com">Project enquiries</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 16 16" aria-hidden="true">
+    <path
+      d="M4 10l4-4 4 4"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+</button>
+  <script src="script.js"></script>
+</body>
+</html>
